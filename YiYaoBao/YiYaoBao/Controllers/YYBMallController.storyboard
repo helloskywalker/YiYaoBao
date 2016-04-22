@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Item-->
+        <scene sceneID="Elp-dY-UfV">
+            <objects>
+                <navigationController storyboardIdentifier="NAV" id="uPy-CR-HLP" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="8wP-rE-LrH"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="iaY-RX-uli">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="a9b-dJ-J8x" kind="relationship" relationship="rootViewController" id="3KS-xV-QBP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J0i-7u-jzI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="956" y="-81"/>
+        </scene>
+        <!--Mall Controller-->
+        <scene sceneID="Yde-u6-3yx">
+            <objects>
+                <viewController storyboardIdentifier="mallStoryBoard" id="a9b-dJ-J8x" customClass="YYBMallController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zVQ-BR-bdN"/>
+                        <viewControllerLayoutGuide type="bottom" id="jZJ-it-RKK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="i5s-fB-9hd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" fixedFrame="YES" text="搜索药品！！！" placeholder="搜索药品" translatesAutoresizingMaskIntoConstraints="NO" id="6jm-fV-thi">
+                                <rect key="frame" x="142" y="11" width="317" height="44"/>
+                                <color key="barTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="swm-Ij-sZV">
+                                <rect key="frame" x="0.0" y="64" width="600" height="202"/>
+                                <subviews>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uDX-gR-yxv">
+                                        <rect key="frame" x="0.0" y="-1" width="600" height="202"/>
+                                        <color key="backgroundColor" red="0.97019051700000003" green="0.72756923179999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="202" id="IqO-Ym-mnh"/>
+                                        </constraints>
+                                    </scrollView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.97019051700000003" green="0.72756923179999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="202" id="1c7-1u-kDa"/>
+                                </constraints>
+                            </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="Q7V-o5-Lfk">
+                                <rect key="frame" x="281" y="214" width="39" height="37"/>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="swm-Ij-sZV" firstAttribute="centerX" secondItem="i5s-fB-9hd" secondAttribute="centerX" id="Xps-9B-lgq"/>
+                            <constraint firstItem="Q7V-o5-Lfk" firstAttribute="centerX" secondItem="i5s-fB-9hd" secondAttribute="centerX" id="nRC-mW-SbW"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="VLe-zq-zSw"/>
+                    <connections>
+                        <outlet property="adScrollView" destination="uDX-gR-yxv" id="0yi-ms-B9S"/>
+                        <outlet property="pageControl" destination="Q7V-o5-Lfk" id="Xzd-nl-EVg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KDj-aa-a6J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1840" y="-74"/>
+        </scene>
+    </scenes>
+</document>
