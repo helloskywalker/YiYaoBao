@@ -18,6 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self.view setBackgroundColor:[UIColor redColor]];
+    self.navigationItem.title = @"全部分类";
 }
 
 - (void)didReceiveMemoryWarning {

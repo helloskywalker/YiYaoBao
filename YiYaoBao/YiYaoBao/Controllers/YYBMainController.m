@@ -55,8 +55,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    UIStoryboard *mallStoryBoard = [UIStoryboard storyboardWithName:@"YYBMallController" bundle:nil];
+    UINavigationController *otcMallController = [mallStoryBoard instantiateViewControllerWithIdentifier:@"NAV"];
     
-    UINavigationController *otcMallController = [[UINavigationController alloc]initWithRootViewController:[[YYBMallController alloc]init]];
     UINavigationController *classesController = [[UINavigationController alloc]initWithRootViewController:[[YYBClassesController alloc]init]];
     UINavigationController *nearByController = [[UINavigationController alloc]initWithRootViewController:[[YYBNearByController alloc]init]];
     //UINavigationController *chatController = [[UINavigationController alloc]initWithRootViewController:[[YYBChatController alloc]init]];

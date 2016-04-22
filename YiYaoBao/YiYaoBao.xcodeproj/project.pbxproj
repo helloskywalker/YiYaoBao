@@ -196,6 +196,7 @@
 		CB98B46D1CC9F85000EB5F97 /* GPUImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB98B3C21CC9F85000EB5F97 /* GPUImageView.m */; };
 		CB98B46E1CC9F85000EB5F97 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = CB98B3C31CC9F85000EB5F97 /* License.txt */; };
 		CB98B46F1CC9F85000EB5F97 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CB98B3C41CC9F85000EB5F97 /* README.md */; };
+		CB98B4731CCA23B400EB5F97 /* YYBMallController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB98B4721CCA23B400EB5F97 /* YYBMallController.storyboard */; };
 		CBAE91A51CC7C7B40078700E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAE91A41CC7C7B40078700E /* main.m */; };
 		CBAE91A81CC7C7B40078700E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAE91A71CC7C7B40078700E /* AppDelegate.m */; };
 		CBAE91AE1CC7C7B40078700E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBAE91AC1CC7C7B40078700E /* Main.storyboard */; };
@@ -592,6 +593,7 @@
 		CB98B3C21CC9F85000EB5F97 /* GPUImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageView.m; sourceTree = "<group>"; };
 		CB98B3C31CC9F85000EB5F97 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
 		CB98B3C41CC9F85000EB5F97 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CB98B4721CCA23B400EB5F97 /* YYBMallController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = YYBMallController.storyboard; path = Controllers/YYBMallController.storyboard; sourceTree = "<group>"; };
 		CBAE91A01CC7C7B40078700E /* YiYaoBao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YiYaoBao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBAE91A41CC7C7B40078700E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CBAE91A61CC7C7B40078700E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -666,6 +668,7 @@
 			children = (
 				CB62BD631CC8A75F001A6620 /* YYBMallController.h */,
 				CB62BD641CC8A75F001A6620 /* YYBMallController.m */,
+				CB98B4721CCA23B400EB5F97 /* YYBMallController.storyboard */,
 			);
 			name = OTCMall;
 			sourceTree = "<group>";
@@ -1335,6 +1338,7 @@
 				CBAE91B31CC7C7B40078700E /* LaunchScreen.storyboard in Resources */,
 				CBAE91B01CC7C7B40078700E /* Assets.xcassets in Resources */,
 				CBAE91AE1CC7C7B40078700E /* Main.storyboard in Resources */,
+				CB98B4731CCA23B400EB5F97 /* YYBMallController.storyboard in Resources */,
 				CB98B46E1CC9F85000EB5F97 /* License.txt in Resources */,
 				CB98B3C51CC9F85000EB5F97 /* lookup.png in Resources */,
 				CB98B3C91CC9F85000EB5F97 /* lookup_soft_elegance_2.png in Resources */,

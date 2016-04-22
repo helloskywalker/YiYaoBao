@@ -18,6 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
      [self.view setBackgroundColor:[UIColor greenColor]];
+    self.navigationItem.title = @"注册／登录";
 }
 
 - (void)didReceiveMemoryWarning {

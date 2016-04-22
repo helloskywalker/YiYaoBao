@@ -18,6 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
      [self.view setBackgroundColor:[UIColor blueColor]];
+    self.navigationItem.title = @"地区";
 }
 
 - (void)didReceiveMemoryWarning {
