@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "YYBMainController.h"
+#import "Utils.h"
 
 @interface AppDelegate ()
 
@@ -19,6 +20,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    _inNightMode = [Utils getMode];
     
     return YES;
 }

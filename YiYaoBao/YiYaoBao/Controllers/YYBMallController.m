@@ -18,6 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
      [self.view setBackgroundColor:[UIColor blackColor]];
+    
+    self.navigationItem.title = @"OTC商城";
 }
 
 - (void)didReceiveMemoryWarning {
