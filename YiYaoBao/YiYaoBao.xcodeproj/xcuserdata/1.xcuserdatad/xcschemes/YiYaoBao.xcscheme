@@ -14,14 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-<<<<<<< HEAD
-               BlueprintIdentifier = "281BD6F9A645DAC50E5D76A82EEE1FA0"
-=======
-               BlueprintIdentifier = "0750E241AF1B9B0E1D9DCFECE8674C6B"
->>>>>>> YYBTeam/master
-               BuildableName = "libSDWebImage.a"
-               BlueprintName = "SDWebImage"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               BlueprintIdentifier = "CBAE919F1CC7C7B40078700E"
+               BuildableName = "YiYaoBao.app"
+               BlueprintName = "YiYaoBao"
+               ReferencedContainer = "container:YiYaoBao.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CBAE91B81CC7C7B40078700E"
+               BuildableName = "YiYaoBaoTests.xctest"
+               BlueprintName = "YiYaoBaoTests"
+               ReferencedContainer = "container:YiYaoBao.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CBAE91C31CC7C7B40078700E"
+               BuildableName = "YiYaoBaoUITests.xctest"
+               BlueprintName = "YiYaoBaoUITests"
+               ReferencedContainer = "container:YiYaoBao.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CBAE919F1CC7C7B40078700E"
+            BuildableName = "YiYaoBao.app"
+            BlueprintName = "YiYaoBao"
+            ReferencedContainer = "container:YiYaoBao.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -46,19 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-<<<<<<< HEAD
-            BlueprintIdentifier = "281BD6F9A645DAC50E5D76A82EEE1FA0"
-=======
-            BlueprintIdentifier = "0750E241AF1B9B0E1D9DCFECE8674C6B"
->>>>>>> YYBTeam/master
-            BuildableName = "libSDWebImage.a"
-            BlueprintName = "SDWebImage"
-            ReferencedContainer = "container:Pods.xcodeproj">
+            BlueprintIdentifier = "CBAE919F1CC7C7B40078700E"
+            BuildableName = "YiYaoBao.app"
+            BlueprintName = "YiYaoBao"
+            ReferencedContainer = "container:YiYaoBao.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -68,19 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-<<<<<<< HEAD
-            BlueprintIdentifier = "281BD6F9A645DAC50E5D76A82EEE1FA0"
-=======
-            BlueprintIdentifier = "0750E241AF1B9B0E1D9DCFECE8674C6B"
->>>>>>> YYBTeam/master
-            BuildableName = "libSDWebImage.a"
-            BlueprintName = "SDWebImage"
-            ReferencedContainer = "container:Pods.xcodeproj">
+            BlueprintIdentifier = "CBAE919F1CC7C7B40078700E"
+            BuildableName = "YiYaoBao.app"
+            BlueprintName = "YiYaoBao"
+            ReferencedContainer = "container:YiYaoBao.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

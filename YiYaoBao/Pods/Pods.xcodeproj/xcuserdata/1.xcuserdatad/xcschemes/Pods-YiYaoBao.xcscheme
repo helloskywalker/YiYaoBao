@@ -14,7 +14,11 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+<<<<<<< HEAD
                BlueprintIdentifier = "4B664617AFE7FDD88F6E34E4F2DE0C46"
+=======
+               BlueprintIdentifier = "F2C9B77C36FA07319312DB4D6FF4491C"
+>>>>>>> YYBTeam/master
                BuildableName = "libPods-YiYaoBao.a"
                BlueprintName = "Pods-YiYaoBao"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +49,11 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
             BlueprintIdentifier = "4B664617AFE7FDD88F6E34E4F2DE0C46"
+=======
+            BlueprintIdentifier = "F2C9B77C36FA07319312DB4D6FF4491C"
+>>>>>>> YYBTeam/master
             BuildableName = "libPods-YiYaoBao.a"
             BlueprintName = "Pods-YiYaoBao"
             ReferencedContainer = "container:Pods.xcodeproj">
@@ -63,7 +71,11 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
             BlueprintIdentifier = "4B664617AFE7FDD88F6E34E4F2DE0C46"
+=======
+            BlueprintIdentifier = "F2C9B77C36FA07319312DB4D6FF4491C"
+>>>>>>> YYBTeam/master
             BuildableName = "libPods-YiYaoBao.a"
             BlueprintName = "Pods-YiYaoBao"
             ReferencedContainer = "container:Pods.xcodeproj">
