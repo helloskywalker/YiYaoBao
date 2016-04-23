@@ -11,10 +11,7 @@
 @interface YYBMainController : UITabBarController
 @end
 
-<<<<<<< HEAD
 //testtest
 
 //test2  17:00
-=======
-//  Created by 泥红 on 16/4/23
->>>>>>> YYBTeam/master
+
