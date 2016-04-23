@@ -14,7 +14,15 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+<<<<<<< HEAD
+<<<<<<< HEAD
+               BlueprintIdentifier = "281BD6F9A645DAC50E5D76A82EEE1FA0"
+=======
                BlueprintIdentifier = "0750E241AF1B9B0E1D9DCFECE8674C6B"
+>>>>>>> YYBTeam/master
+=======
+               BlueprintIdentifier = "0750E241AF1B9B0E1D9DCFECE8674C6B"
+>>>>>>> YYBTeam/master
                BuildableName = "libSDWebImage.a"
                BlueprintName = "SDWebImage"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +53,15 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
+<<<<<<< HEAD
+            BlueprintIdentifier = "281BD6F9A645DAC50E5D76A82EEE1FA0"
+=======
             BlueprintIdentifier = "0750E241AF1B9B0E1D9DCFECE8674C6B"
+>>>>>>> YYBTeam/master
+=======
+            BlueprintIdentifier = "0750E241AF1B9B0E1D9DCFECE8674C6B"
+>>>>>>> YYBTeam/master
             BuildableName = "libSDWebImage.a"
             BlueprintName = "SDWebImage"
             ReferencedContainer = "container:Pods.xcodeproj">
@@ -63,7 +79,15 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
+<<<<<<< HEAD
+            BlueprintIdentifier = "281BD6F9A645DAC50E5D76A82EEE1FA0"
+=======
             BlueprintIdentifier = "0750E241AF1B9B0E1D9DCFECE8674C6B"
+>>>>>>> YYBTeam/master
+=======
+            BlueprintIdentifier = "0750E241AF1B9B0E1D9DCFECE8674C6B"
+>>>>>>> YYBTeam/master
             BuildableName = "libSDWebImage.a"
             BlueprintName = "SDWebImage"
             ReferencedContainer = "container:Pods.xcodeproj">
