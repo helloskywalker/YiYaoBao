@@ -10,5 +10,3 @@
 
 @interface YYBMainController : UITabBarController
 @end
-
-
